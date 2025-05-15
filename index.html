@@ -25,7 +25,7 @@
     <div class="decor decor-middle-right"></div>
 
     <div class="photo-frame">
-      <img src="images/bride-groom.jpg" alt="Молодожёны" />
+      <img src="head_photo.png" alt="Молодожёны" />
     </div>
 
     <div class="decor decor-bottom-left"></div>
@@ -46,7 +46,7 @@
   <h2 class="section-title">Место проведения</h2>
 
   <div class="venue-photo">
-    <img src="images/venue.jpg" alt="Место проведения" />
+    <img src="place.png" alt="Место проведения" />
   </div>
 
   <p class="venue-address">
@@ -55,7 +55,7 @@
   </p>
 
   <div class="map">
-    <img src="images/map.png" alt="Карта" />
+    <img src="place-map.png" alt="Карта" />
   </div>
 
   <a
@@ -90,7 +90,7 @@
   <div class="photo-with-arrows">
     <div class="arrow left-arrow">&#10094;</div>
     <div class="photo-frame">
-      <img src="images/bride-groom-2.jpg" alt="Молодожёны" />
+      <img src="galery1.png" alt="Молодожёны" />
     </div>
     <div class="arrow right-arrow">&#10095;</div>
   </div>
