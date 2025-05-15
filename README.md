@@ -1,154 +1,123 @@
-# gaffatullina.github.io
-<html>
-    <head>
-        <title> Резюме </title>
-        <style>
-            p {
-                margin-bottom: 25px;
-            }
-
-            table {
-                border: 1px solid #000;
-                width: 100%;
-                margin-bottom: 20px;
-                border-collapse: collapse;
-            }
-
-            th, td {
-                padding: 10px;
-                text-align: center;
-                border: 1px solid #000;
-            }
-
-            th:nth-child(1), td:nth-child(1) {
-                width: 15%;
-            }
-
-            th:nth-child(2), td:nth-child(2),
-            th:nth-child(3), td:nth-child(3),
-            th:nth-child(4), td:nth-child(4),
-            th:nth-child(5), td:nth-child(5),
-            th:nth-child(6), td:nth-child(6) {
-                width: 10%; 
-            }
-
-            .inputs {
-                display: flex; 
-                gap: 200px;
-                margin-top: 20px;
-            }
-
-            .inputs label {
-                display: block;
-                margin-bottom: 5px;
-            }
-
-            .inputs input {
-                width: 80%;
-                padding: 8px;
-            }
-
-            .image p {
-                margin-bottom: 10px;
-            }
-
-            #more-info {
-                display: none;
-                margin-top: 20px;
-            }
-
-            .toggle-link {
-                text-align: center;
-                margin-top: 20px;
-            }
-
-        </style>
-    </head>
-    <body>
-        <div class="image">
-            <img src="foto.jpg" alt="" width="120" align="left" />
-            <h1><strong> Гаффатуллина Лена</strong> </h1>
-            <p><strong> Адрес: </strong> Челябинск </p> 
-            <p><strong> Опыт работы: </strong> Нет </p> 
-            <p><strong> Телефон: </strong> +7-961-357-05-60 </p>
-        </div>
-
-        <div class="text">
-            <h2><strong> Знание языков: </strong></h2>
-        </div>
-
-        <table>
-            <tr>
-                <th>&nbsp;</th>
-                <th>Java</th>
-                <th>JavaScript</th>
-                <th>C++</th>
-                <th>C#</th>
-                <th>Swift</th>
-            </tr>
-            <tr>
-                <td>Отлиное владение</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-            </tr>
-            <tr>
-                <td>Хорошее владение</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-            </tr>
-            <tr>
-                <td>Среднее владение</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-            </tr>
-            <tr>
-                <td>Плохое владение</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-                <td>нет</td>
-            </tr>   
-        </table>
-
-        <div class="inputs">
-            <div class="input-field">
-                <label for="name-input">Имя:</label>
-                <input type="text" id="name-input" placeholder="Введите имя" required>
-            </div>
-            <div class="input-field">
-                <label for="phone-input">Телефон:</label>
-                <input type="tel" id="phone-input" placeholder="+7 (900) 000-01-01" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" required>
-            </div>
-        </div>
-        <h1 class="toggle-link" onclick="toggleInfo()">Кликните сюда, чтобы узнать меня подробнее</h1>
-        <div id="more-info">
-            <p><strong>Имя:</strong> Гаффатуллина Лена</p>
-            <p><strong>Возраст:</strong> 18 лет</p>
-            <p><strong>Образование:</strong> Студентка 2-го курса направления "ПМИ"</p>
-            <p><strong>Увлечения:</strong> Программирование, музыка, сон</p>
-            <p><strong>Навыки:</strong> Не отладывать дела на потом и забывать, что задание было сделано, а потом удивляться </p>
-        </div>
-
-        <script>
-            function toggleInfo() {
-                var info = document.getElementById("more-info");
-                if (info.style.display === "none" || info.style.display === "") {
-                    info.style.display = "block";
-                    window.scrollTo(0, document.body.scrollHeight);
-                } else {
-                    info.style.display = "none";
-                }
-            }
-        </script>
-    </body>
-</html>
+<div class="section-1">
+  <div class="div">Рады пригласить вас на нашу свадьбу!</div>
+  <div class="_02-2025-15-30">02 августа 2025 года в 15:30</div>
+  <div class="div2">&amp;</div>
+  <div class="div3">
+    Дорогие родные и близкие!
+    <br />
+    С огромной радостью приглашаем вас
+    <br />
+    на самое главное событие
+    <br />
+    в нашей жизни - нашу свадьбу!
+    <br />
+    Мы будем ещё счастливей, если вы
+    <br />
+    разделите с нами этот чудесный день!
+  </div>
+  <div class="div4">Место проведения</div>
+  <div class="_101">
+    Туристический комплекс «Ургун»
+    <br />
+    улица Центральная 101
+  </div>
+  <div class="div5">Гузель</div>
+  <div class="div6">Булат</div>
+  <img class="image-2" src="image-20.png" />
+  <img class="image-7" src="image-70.png" />
+  <div class="shape-with-text"></div>
+  <div class="div7">Открыть карту</div>
+  <img class="freepik-adjust-71253-2" src="freepik-adjust-71253-20.png" />
+  <img class="freepik-adjust-71253-3" src="freepik-adjust-71253-30.png" />
+  <img class="freepik-adjust-71253-32" src="freepik-adjust-71253-31.png" />
+  <img class="freepik-adjust-71253-22" src="freepik-adjust-71253-21.png" />
+  <img class="image-11" src="image-110.png" />
+  <img class="freepik-adjust-71253-1" src="freepik-adjust-71253-10.png" />
+  <img class="image-4" src="image-40.png" />
+  <img class="freepik-adjust-71253-23" src="freepik-adjust-71253-22.png" />
+  <img class="freepik-adjust-71253-4" src="freepik-adjust-71253-40.png" />
+  <div class="shape-with-text2"></div>
+  <div class="div8">Подтверждение присутствия</div>
+  <div class="div9">Форма подтверждения</div>
+  <div class="div10">
+    Мы с нетерпением ждём встречи и хотим, чтобы всем было комфортно и радостно.
+    Поделитесь с нами, сможете ли вы быть с нами в этот день — это правда важно
+    для подготовки!
+  </div>
+  <img class="freepik-adjust-71253-6" src="freepik-adjust-71253-60.png" />
+  <img class="freepik-adjust-71253-12" src="freepik-adjust-71253-11.png" />
+  <div class="div11">
+    Пожалуйста, не дарите нам живые цветы, они прекрасны, но недолговечны.
+  </div>
+  <div class="div12">
+    Если собираетесь подарить нам ценный и нужный подарок - поместите его в
+    конверт.
+  </div>
+  <div class="div13">
+    Мы будем бесконечно благодарны, если вы разделите с нами счастливые моменты,
+    будничные проблемы и дела подождут!
+  </div>
+  <div class="_1">1</div>
+  <div class="_2">2</div>
+  <div class="_3">3</div>
+  <img class="image-5" src="image-50.png" />
+  <div class="div14">Расписание</div>
+  <div class="div15">
+    Выкуп невесты
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Сбор гостей
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Выездная регистрация
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Начало банкета
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Заключение
+  </div>
+  <div class="_13-30">13:30</div>
+  <div class="_16-00">16:00</div>
+  <div class="_17-00">17:00</div>
+  <div class="div16">
+    С весёлого старта начинается день! Жениху предстоит пройти несколько
+    испытаний, чтобы доказать свою любовь. Обещаем: будет весело и с душой!
+  </div>
+  <div class="div17">
+    Готовьтесь поднимать бокалы, наслаждаться вкусной едой и танцевать до упаду!
+    Веселье официально объявляется открытым!
+  </div>
+  <div class="div18">
+    Время встреч и улыбок! Перекинуться парой слов с друзьями, сделать пару фото
+    и насладиться лёгкими закусками — отличный старт перед церемонией.
+  </div>
+  <div class="div19">
+    Тот самый трепетный момент! Слова любви, клятвы и счастливые глаза — всё это
+    создаст магию, которую мы запомним навсегда.
+  </div>
+  <div class="div20">
+    Пора обниматься на прощание, обмениваться тёплыми словами и загадывать
+    желания. Спасибо, что были с нами в этот особенный день
+  </div>
+  <div class="_23-00">23:00</div>
+  <div class="shape-with-text3"></div>
+  <div class="shape-with-text4"></div>
+  <img class="freepik-adjust-71253-33" src="freepik-adjust-71253-32.png" />
+  <img class="freepik-adjust-71253-13" src="freepik-adjust-71253-12.png" />
+  <img class="freepik-adjust-71253-24" src="freepik-adjust-71253-23.png" />
+</div>
