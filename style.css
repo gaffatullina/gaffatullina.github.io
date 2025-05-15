@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'HeadFont';
-  src: url('Head_font.otf') format('opentype');
+  src: url('HeadFont.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TextFont';
-  src: url('Text_font.woff') format('woff');
+  src: url('TextFont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
