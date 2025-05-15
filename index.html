@@ -1,57 +1,167 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Свадебное приглашение</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <section class="hero">
-    <h1>Рады пригласить вас на нашу свадьбу!</h1>
-    <h2>02 августа 2025 года в 15:30</h2>
-    <div class="names">Гузель & Булат</div>
-  </section>
+  <section class="section1">
+    <div class="decor decor-top-left"></div>
+    <div class="decor decor-top-right"></div>
 
-  <section class="invitation">
-    <p>Дорогие родные и близкие! С огромной радостью приглашаем вас на самое главное событие в нашей жизни — нашу свадьбу!</p>
-    <p>Мы будем ещё счастливей, если вы разделите с нами этот чудесный день!</p>
-  </section>
+    <div class="rings">&#128141;</div>
 
-  <section class="location">
-    <h2>Место проведения</h2>
-    <p>Туристический комплекс «Ургун»<br>улица Центральная 101</p>
-    <a href="https://yandex.ru/maps/?text=Туристический комплекс Ургун" target="_blank">Открыть карту</a>
-  </section>
+    <p class="invitation-text">Рады пригласить вас на нашу свадьбу!</p>
+    <p class="date-time">02 августа 2025 года в 15:30</p>
 
-  <section class="schedule">
-    <h2>Расписание</h2>
-    <ul>
-      <li><strong>13:30</strong> — Выкуп невесты</li>
-      <li><strong>15:30</strong> — Сбор гостей</li>
-      <li><strong>16:00</strong> — Выездная регистрация</li>
-      <li><strong>17:00</strong> — Начало банкета</li>
-      <li><strong>23:00</strong> — Заключение</li>
-    </ul>
-  </section>
+    <div class="names">
+      <span class="name">Булат</span>
+      <span class="amp">&amp;</span>
+      <span class="name">Гузель</span>
+    </div>
 
-  <section class="note">
-    <p>Пожалуйста, не дарите нам живые цветы. Если хотите сделать подарок — пусть он будет в конверте.</p>
-    <p>Мы будем бесконечно благодарны, если вы разделите с нами счастливые моменты. Будничные дела подождут!</p>
-  </section>
+    <div class="decor decor-middle-right"></div>
 
-  <section class="rsvp">
-    <h2>Подтверждение присутствия</h2>
-    <form action="submit.php" method="POST">
-      <label>Ваше имя: <input type="text" name="name" required></label><br>
-      <label>Вы будете с нами? 
-        <select name="attendance">
-          <option value="Да">Да</option>
-          <option value="Нет">Нет</option>
-          <option value="Пока не знаю">Пока не знаю</option>
-        </select>
-      </label><br>
-      <button type="submit">Отправить</button>
-    </form>
+    <div class="photo-frame">
+      <img src="images/bride-groom.jpg" alt="Молодожёны" />
+    </div>
+
+    <div class="decor decor-bottom-left"></div>
   </section>
 </body>
+  <section class="section2">
+  <div class="decor decor-top-right"></div>
+
+  <p class="intro-text">
+    Дорогие родные и близкие!<br />
+    С огромной радостью приглашаем вас<br />
+    на самое главное событие<br />
+    в нашей жизни – нашу свадьбу!<br />
+    Мы будем ещё счастливей, если вы<br />
+    разделите с нами этот чудесный день!
+  </p>
+
+  <h2 class="section-title">Место проведения</h2>
+
+  <div class="venue-photo">
+    <img src="images/venue.jpg" alt="Место проведения" />
+  </div>
+
+  <p class="venue-address">
+    Туристический комплекс «Ургун»<br />
+    улица Центральная 101
+  </p>
+
+  <div class="map">
+    <img src="images/map.png" alt="Карта" />
+  </div>
+
+  <a
+    href="https://yandex.ru/maps/?text=Туристический%20комплекс%20Ургун%20Центральная%20101"
+    target="_blank"
+    class="map-button"
+  >
+    Открыть карту
+  </a>
+
+  <div class="decor decor-bottom-left"></div>
+</section>
+  
+<section class="section3">
+  <div class="decor decor-top-left"></div>
+
+  <div class="wishes">
+    <div class="wish">
+      <span class="number">1</span>
+      <p>Пожалуйста, не дарите нам<br/>живые цветы, они прекрасны,<br/>но недолговечны.</p>
+    </div>
+    <div class="wish">
+      <span class="number">2</span>
+      <p>Если собираетесь подарить нам<br/>ценный и нужный подарок –<br/>поместите его в конверт.</p>
+    </div>
+    <div class="wish">
+      <span class="number">3</span>
+      <p>Мы будем бесконечно<br/>благодарны, если вы<br/>разделите с нами счастливые<br/>моменты, будничные<br/>проблемы и дела подождут!</p>
+    </div>
+  </div>
+
+  <div class="photo-with-arrows">
+    <div class="arrow left-arrow">&#10094;</div>
+    <div class="photo-frame">
+      <img src="images/bride-groom-2.jpg" alt="Молодожёны" />
+    </div>
+    <div class="arrow right-arrow">&#10095;</div>
+  </div>
+
+  <div class="decor decor-bottom-right"></div>
+</section>
+
+  <section class="section4">
+  <div class="decor decor-top-left"></div>
+
+  <h2 class="section-title">Расписание</h2>
+
+  <div class="timeline">
+    <div class="event">
+      <span class="time">13:30</span>
+      <div class="details">
+        <h3>Выкуп невесты</h3>
+        <p>С весёлого старта начинается день! Жениху предстоит пройти несколько испытаний, чтобы доказать свою любовь. Обещаем: будет весело и с душой!</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <span class="time">15:30</span>
+      <div class="details">
+        <h3>Сбор гостей</h3>
+        <p>Время встреч и улыбок! Перекинуться парой слов с друзьями, сделать пару фото и насладиться лёгкими закусками – отличный старт перед церемонией.</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <span class="time">16:00</span>
+      <div class="details">
+        <h3>Выездная регистрация</h3>
+        <p>Тот самый трепетный момент! Слова любви, клятвы и счастливые глаза – всё это создаст магию, которую мы запомним навсегда.</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <span class="time">17:00</span>
+      <div class="details">
+        <h3>Начало банкета</h3>
+        <p>Готовьтесь поднимать бокалы, наслаждаться вкусной едой и танцевать до упаду! Веселье официально объявляется открытым!</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <span class="time">23:00</span>
+      <div class="details">
+        <h3>Заключение</h3>
+        <p>Пора обниматься на прощание, обмениваться тёплыми словами и загадывать желания. Спасибо, что были с нами в этот особенный день!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="decor decor-bottom-right"></div>
+</section>
+
+  <section class="section5">
+  <h2 class="section-title">Подтверждение присутствия</h2>
+
+  <p class="confirmation-text">
+    Мы с нетерпением ждём встречи и хотим, чтобы всем было комфортно и радостно.
+    Поделитесь с нами, сможете ли вы быть с нами в этот день — это правда важно для подготовки!
+  </p>
+
+  <a class="confirm-button" href="https://forms.yandex.ru/u/example" target="_blank">
+    Форма подтверждения
+  </a>
+
+  <div class="decor decor-bottom-left"></div>
+</section>
+
+
 </html>
