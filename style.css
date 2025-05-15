@@ -1,65 +1,323 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background: #FF9C94;
   margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  background-color: #fff8f6;
+  color: #782828;
 }
 
-section {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.hero {
-  background: #f9e1e1;
+.section1 {
   text-align: center;
-  padding: 60px 20px;
+  padding: 40px 20px;
+  position: relative;
 }
 
-.hero h1 {
-  font-size: 2em;
+.decor {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 }
 
-.hero .names {
-  font-size: 1.5em;
-  margin-top: 10px;
+.decor-top-left {
+  top: 0;
+  left: 0;
+  background-image: url('images/flower-top-left.png');
 }
 
-.location a {
+.decor-top-right {
+  top: 0;
+  right: 0;
+  background-image: url('images/flower-top-right.png');
+}
+
+.decor-middle-right {
+  top: 200px;
+  right: 10px;
+  background-image: url('images/flower-middle-right.png');
+}
+
+.decor-bottom-left {
+  bottom: 0;
+  left: 0;
+  background-image: url('images/flower-bottom-left.png');
+}
+
+.rings {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #f3c164;
+}
+
+.invitation-text {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.date-time {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.names {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.names .amp {
+  font-size: 48px;
+  color: #f3c6c6;
+  margin: 0 10px;
+}
+
+.photo-frame {
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section2 {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.section2 .intro-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #782828;
+  margin-bottom: 30px;
+}
+
+.section2 .section-title {
+  font-family: 'Georgia', cursive;
+  font-size: 24px;
+  color: #b64c4c;
+  margin-bottom: 20px;
+}
+
+.venue-photo img,
+.map img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.venue-address {
+  font-size: 16px;
+  color: #b64c4c;
+  margin-bottom: 20px;
+}
+
+.map-button {
   display: inline-block;
-  margin-top: 10px;
-  color: #b83232;
+  background-color: #b8d8c2;
+  color: #2f4f4f;
+  padding: 10px 20px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.schedule ul {
-  list-style: none;
-  padding-left: 0;
+.map-button:hover {
+  background-color: #a3cbb1;
 }
 
-.schedule li {
-  margin: 10px 0;
+.section3 {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
 }
 
-form {
+.wishes {
+  margin-bottom: 30px;
+  color: #782828;
+}
+
+.wish {
+  margin-bottom: 20px;
+}
+
+.wish .number {
+  font-size: 28px;
+  color: #b64c4c;
+  font-family: 'Georgia', cursive;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.wish p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.photo-with-arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-top: 20px;
 }
 
-input, select, button {
-  padding: 10px;
-  margin: 10px 0;
-  width: 100%;
-  max-width: 400px;
-  box-sizing: border-box;
+.arrow {
+  font-size: 28px;
+  color: #a3cbb1;
+  cursor: pointer;
+  user-select: none;
 }
 
-button {
-  background-color: #b83232;
-  color: white;
-  border: none;
-  cursor: pointer;
+.photo-frame {
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Украшения */
+.decor-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url('images/flower-bottom-right.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section4 {
+  padding: 40px 20px;
+  position: relative;
+  text-align: left;
+}
+
+.section4 .section-title {
+  text-align: center;
+  font-family: 'Georgia', cursive;
+  font-size: 26px;
+  color: #b64c4c;
+  margin-bottom: 30px;
+}
+
+.timeline .event {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.timeline .time {
+  font-size: 24px;
+  font-family: 'Georgia', cursive;
+  color: #b64c4c;
+  width: 70px;
+  flex-shrink: 0;
+}
+
+.timeline .details {
+  margin-left: 15px;
+  max-width: 80%;
+}
+
+.timeline .details h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #782828;
+}
+
+.timeline .details p {
+  margin: 0;
+  font-size: 15px;
+  color: #782828;
+  line-height: 1.5;
+}
+
+.decor-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url('images/flower-top-left.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url('images/flower-bottom-right.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section5 {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.section5 .section-title {
+  font-family: 'Georgia', cursive;
+  font-size: 24px;
+  color: #b64c4c;
+  margin-bottom: 20px;
+}
+
+.confirmation-text {
+  font-size: 15px;
+  color: #782828;
+  margin-bottom: 25px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.confirm-button {
+  background-color: #a3cbb1;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.confirm-button:hover {
+  background-color: #8bb19a;
+}
+
+/* Украшение */
+.decor-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  background-image: url('images/flower-bottom-left.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
