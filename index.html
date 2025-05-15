@@ -25,7 +25,7 @@
     <div class="decor decor-middle-right"></div>
 
     <div class="photo-frame">
-      <img src="head_photo.png" alt="Молодожёны" />
+      <img src="HeadPhoto.png" alt="Молодожёны" />
     </div>
 
     <div class="decor decor-bottom-left"></div>
