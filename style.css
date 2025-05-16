@@ -77,21 +77,20 @@ body {
 
 /* Текст в первой секции */
 .invitation-text {
-  font-size: clamp(28px, 20vw, 100px);
+  font-size: clamp(23px, 10vw, 110px);
   font-family: 'HeadFont', serif;
   margin-bottom: 10px;
 }
 
 .date-time {
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(23px, 9vw, 100px);
   font-family: 'HeadFont', serif;
   margin-bottom: 20px;
 }
 
 .names {
   font-family: 'HeadFont', serif;
-  font-size: clamp(22px, 3vw, 32px);
-  font-weight: bold;
+  font-size: clamp(22px, 13vw, 120px);
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -99,7 +98,7 @@ body {
 }
 
 .names .amp {
-  font-size: clamp(36px, 6vw, 56px);
+  font-size: clamp(36px, 40vw, 250px);
   color: #f3c6c6;
   margin: 0 10px;
 }
@@ -121,7 +120,7 @@ body {
 
 /* Секция 2 */
 .section2 .intro-text {
-  font-size: clamp(14px, 2vw, 18px);
+  font-size: clamp(21px, 5vw, 40px);
   line-height: 1.6;
   color: #782828;
   margin-bottom: 30px;
@@ -129,7 +128,7 @@ body {
 
 .section2 .section-title {
   font-family: 'HeadFont', serif;
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(28px, 11vw, 105px);
   color: #b64c4c;
   margin-bottom: 20px;
 }
@@ -144,7 +143,7 @@ body {
 }
 
 .venue-address {
-  font-size: clamp(14px, 2vw, 18px);
+  font-size: clamp(21px, 5vw, 40px);
   color: #b64c4c;
   margin-bottom: 20px;
 }
@@ -183,7 +182,7 @@ body {
 }
 
 .wish .number {
-  font-size: 28px;
+  font-size: clamp(21px, 20vw, 160px);
   color: #b64c4c;
   font-family: 'HeadFont', serif;
   flex-shrink: 0;
@@ -194,7 +193,7 @@ body {
 
 .wish p {
   margin: 0;
-  font-size: 16px;
+  font-size: clamp(21px, 5vw, 40px);
   line-height: 1.5;
 }
 
@@ -217,7 +216,7 @@ body {
 .section4 .section-title {
   text-align: center;
   font-family: 'HeadFont', serif;
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(15px, 13vw, 105px);
   color: #b64c4c;
   margin-bottom: 30px;
 }
@@ -237,10 +236,9 @@ body {
 }
 
 .timeline .time {
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: clamp(21px, 10vw, 120px);
   font-family: 'HeadFont', serif;
   color: #b64c4c;
-  width: 70px;
   flex-shrink: 0;
   text-align: right;
 }
@@ -252,13 +250,13 @@ body {
 
 .timeline .details h3 {
   margin: 0 0 5px;
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(21px, 5vw, 40px);
   color: #782828;
 }
 
 .timeline .details p {
   margin: 0;
-  font-size: clamp(14px, 1.8vw, 17px);
+  font-size: clamp(15px, 4vw, 30px);
   color: #782828;
   line-height: 1.5;
 }
@@ -266,13 +264,13 @@ body {
 /* Секция 5 - Подтверждение */
 .section5 .section-title {
   font-family: 'HeadFont', serif;
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(28px, 11vw, 105px);
   color: #b64c4c;
   margin-bottom: 20px;
 }
 
 .confirmation-text {
-  font-size: clamp(14px, 2vw, 16px);
+  font-size: clamp(21px, 5vw, 40px);
   color: #782828;
   margin-bottom: 25px;
   max-width: 400px;
@@ -284,7 +282,7 @@ body {
 
 .confirm-button {
   background-color: #a3cbb1;
-  color: #fff;
+  color: #2f4f4f;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 6px;
