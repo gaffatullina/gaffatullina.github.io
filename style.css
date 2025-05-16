@@ -77,7 +77,7 @@ body {
 
 /* Текст в первой секции */
 .invitation-text {
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(28px, 20vw, 100px);
   font-family: 'HeadFont', serif;
   margin-bottom: 10px;
 }
