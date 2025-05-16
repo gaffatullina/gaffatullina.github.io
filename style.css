@@ -77,13 +77,13 @@ body {
 
 /* Текст в первой секции */
 .invitation-text {
-  font-size: clamp(25px, 10vw, 50px);
+  font-size: clamp(28px, 5vw, 48px);
   font-family: 'HeadFont', serif;
   margin-bottom: 10px;
 }
 
 .date-time {
-  font-size: clamp(25px, 9.8vw, 50px);
+  font-size: clamp(28px, 5vw, 48px);
   font-family: 'HeadFont', serif;
   margin-bottom: 20px;
 }
@@ -129,7 +129,7 @@ body {
 
 .section2 .section-title {
   font-family: 'HeadFont', serif;
-  font-size: clamp(20px, 2.8vw, 28px);
+  font-size: clamp(28px, 5vw, 48px);
   color: #b64c4c;
   margin-bottom: 20px;
 }
@@ -217,7 +217,7 @@ body {
 .section4 .section-title {
   text-align: center;
   font-family: 'HeadFont', serif;
-  font-size: clamp(20px, 2.8vw, 28px);
+  font-size: clamp(28px, 5vw, 48px);
   color: #b64c4c;
   margin-bottom: 30px;
 }
@@ -266,7 +266,7 @@ body {
 /* Секция 5 - Подтверждение */
 .section5 .section-title {
   font-family: 'HeadFont', serif;
-  font-size: clamp(20px, 2.8vw, 28px);
+  font-size: clamp(28px, 5vw, 48px);
   color: #b64c4c;
   margin-bottom: 20px;
 }
