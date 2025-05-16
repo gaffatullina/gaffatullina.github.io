@@ -77,13 +77,13 @@ body {
 
 /* Текст в первой секции */
 .invitation-text {
-  font-size: clamp(25px, 4vw, 30px);
+  font-size: clamp(25px, 10vw, 50px);
   font-family: 'HeadFont', serif;
   margin-bottom: 10px;
 }
 
 .date-time {
-  font-size: clamp(25px, 3.8vw, 30px);
+  font-size: clamp(25px, 9.8vw, 50px);
   font-family: 'HeadFont', serif;
   margin-bottom: 20px;
 }
