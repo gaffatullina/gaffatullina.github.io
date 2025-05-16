@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'HeadFont';
-  src: url('HeadFont.otf') format('opentype');
+  src: url('fonts/HeadFont.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TextFont';
-  src: url('TextFont.woff') format('woff');
+  src: url('fonts/TextFont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -42,31 +42,31 @@ body {
 .decor-top-left {
   top: 0;
   left: 0;
-  background-image: url('images/flower-top-left.png');
+  background-image: url('images/flowers/1.png');
 }
 
 .decor-top-right {
   top: 0;
   right: 0;
-  background-image: url('images/flower-top-right.png');
+  background-image: url('images/flowers/2.png');
 }
 
 .decor-middle-right {
   top: 200px;
   right: 10px;
-  background-image: url('images/flower-middle-right.png');
+  background-image: url('images/flowers/3.png');
 }
 
 .decor-bottom-left {
   bottom: 0;
   left: 0;
-  background-image: url('images/flower-bottom-left.png');
+  background-image: url('images/flowers/4.png');
 }
 
 .decor-bottom-right {
   bottom: 0;
   right: 0;
-  background-image: url('images/flower-bottom-right.png');
+  background-image: url('images/flowers/5.png');
 }
 
 .rings {
