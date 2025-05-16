@@ -55,7 +55,7 @@
       </p>
 
       <div class="map">
-        <img src="place-map.jpg" alt="Карта" />
+        <img src="images/place-map.jpg" alt="Карта" />
       </div>
 
       <a
