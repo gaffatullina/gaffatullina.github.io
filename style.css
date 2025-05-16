@@ -78,18 +78,18 @@ body {
 /* Текст в первой секции */
 .invitation-text {
   font-size: clamp(16px, 2.5vw, 22px);
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   margin-bottom: 10px;
 }
 
 .date-time {
   font-size: clamp(14px, 2.2vw, 20px);
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   margin-bottom: 20px;
 }
 
 .names {
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   font-size: clamp(22px, 3vw, 32px);
   font-weight: bold;
   margin-bottom: 20px;
@@ -128,7 +128,7 @@ body {
 }
 
 .section2 .section-title {
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   font-size: clamp(20px, 2.8vw, 28px);
   color: #b64c4c;
   margin-bottom: 20px;
@@ -185,7 +185,7 @@ body {
 .wish .number {
   font-size: 28px;
   color: #b64c4c;
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   flex-shrink: 0;
   min-width: 30px;
   text-align: right;
@@ -216,7 +216,7 @@ body {
 /* Секция 4 - Расписание */
 .section4 .section-title {
   text-align: center;
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   font-size: clamp(20px, 2.8vw, 28px);
   color: #b64c4c;
   margin-bottom: 30px;
@@ -238,7 +238,7 @@ body {
 
 .timeline .time {
   font-size: clamp(18px, 2.5vw, 24px);
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   color: #b64c4c;
   width: 70px;
   flex-shrink: 0;
@@ -265,7 +265,7 @@ body {
 
 /* Секция 5 - Подтверждение */
 .section5 .section-title {
-  font-family: 'HeadFont';
+  font-family: 'HeadFont', serif;
   font-size: clamp(20px, 2.8vw, 28px);
   color: #b64c4c;
   margin-bottom: 20px;
