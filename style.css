@@ -58,29 +58,32 @@ body {
 }
 
 .rings {
-  font-size: 40px;
-  margin: 20px 0;
-  color: #f3c164;
+  top: 200px;
+  right: 10px;
+  background-image: url('images/rings.png');
 }
 
 .invitation-text {
   font-size: 20px;
-  font-style: italic;
+  font-family: 'Headfont';
   margin-bottom: 10px;
 }
 
 .date-time {
   font-size: 18px;
+  font-family: 'Headfont';
   margin-bottom: 20px;
 }
 
 .names {
+  font-family: 'Headfont';
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .names .amp {
+  font-family: 'Headfont';
   font-size: 48px;
   color: #f3c6c6;
   margin: 0 10px;
@@ -114,7 +117,7 @@ body {
 }
 
 .section2 .section-title {
-  font-family: 'Georgia', cursive;
+  font-family: 'Headfont';
   font-size: 24px;
   color: #b64c4c;
   margin-bottom: 20px;
@@ -168,7 +171,7 @@ body {
 .wish .number {
   font-size: 28px;
   color: #b64c4c;
-  font-family: 'Georgia', cursive;
+  font-family: 'Headfont';
   display: block;
   margin-bottom: 5px;
 }
@@ -227,7 +230,7 @@ body {
 
 .section4 .section-title {
   text-align: center;
-  font-family: 'Georgia', cursive;
+  font-family: 'HeadFont';
   font-size: 26px;
   color: #b64c4c;
   margin-bottom: 30px;
@@ -241,7 +244,7 @@ body {
 
 .timeline .time {
   font-size: 24px;
-  font-family: 'Georgia', cursive;
+  font-family: 'HeadFont';
   color: #b64c4c;
   width: 70px;
   flex-shrink: 0;
@@ -294,7 +297,7 @@ body {
 }
 
 .section5 .section-title {
-  font-family: 'Georgia', cursive;
+  font-family: 'HeadFont';
   font-size: 24px;
   color: #b64c4c;
   margin-bottom: 20px;
