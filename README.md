@@ -19,9 +19,12 @@
       <div class="names">
         <span class="name">Булат</span>
         <span class="amp">&amp;</span>
-        <span class="name">Гузель</span>
       </div>
-
+      
+      <div class="names">
+         <span class="name">Гузель</span>
+      </div>
+      
       <div class="decor decor-middle-right"></div>
 
       <div class="photo-frame">
