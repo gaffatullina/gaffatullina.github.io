@@ -35,8 +35,9 @@ body {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  z-index: 1;
 }
 
 .decor-top-left {
@@ -52,8 +53,9 @@ body {
 }
 
 .decor-middle-right {
-  top: 200px;
-  right: 10px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
   background-image: url('images/flowers/3.png');
 }
 
@@ -69,10 +71,157 @@ body {
   background-image: url('images/flowers/5.png');
 }
 
-.rings {
-  top: 200px;
-  right: 10px;
-  background-image: url('images/rings.png');
+/* Новые декоративные элементы */
+.decor-rings-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/2.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-date-names {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/3.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-photo-top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('images/flowers/4.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-photo-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url('images/flowers/5.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-venue-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/6.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-map-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/7.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-map-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/8.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-schedule-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/9.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-conclusion-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('images/flowers/10.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.decor-footer-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url('images/flowers/11.png');
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+  .decor,
+  .decor-rings-right,
+  .decor-date-names,
+  .decor-photo-top-left,
+  .decor-photo-bottom-left,
+  .decor-venue-right,
+  .decor-map-left,
+  .decor-map-right,
+  .decor-schedule-left,
+  .decor-conclusion-right,
+  .decor-footer-left {
+    width: clamp(40px, 6vw, 80px);
+    height: clamp(40px, 6vw, 80px);
+  }
+}
+
+@media (max-width: 480px) {
+  .decor,
+  .decor-rings-right,
+  .decor-date-names,
+  .decor-photo-top-left,
+  .decor-photo-bottom-left,
+  .decor-venue-right,
+  .decor-map-left,
+  .decor-map-right,
+  .decor-schedule-left,
+  .decor-conclusion-right,
+  .decor-footer-left {
+    width: clamp(30px, 4vw, 60px);
+    height: clamp(30px, 4vw, 60px);
+  }
 }
 
 /* Текст в первой секции */
