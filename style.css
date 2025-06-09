@@ -166,12 +166,16 @@ body {
   font-size: clamp(23px, 10vw, 70px);
   font-family: 'HeadFont', sans-serif;
   margin-bottom: 10px;
+  z-index: 2;
+  position: relative;
 }
 
 .date-time {
   font-size: clamp(23px, 9vw, 60px);
   font-family: 'HeadFont', sans-serif;
   margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .names {
@@ -181,6 +185,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  position: relative;
 }
 
 .names .amp {
@@ -210,12 +216,16 @@ body {
   color: #b64c4c;
   line-height: 1.6;
   margin-bottom: 30px;
+  z-index: 2;
+  position: relative;
 }
 
 .section2 .section-title {
   font-family: 'HeadFont', sans-serif;
   font-size: clamp(28px, 11vw, 65px);
   margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .venue-photo img,
@@ -231,6 +241,8 @@ body {
   font-size: clamp(21px, 5vw, 30px);
   color: #b64c4c;
   margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .map-button {
@@ -252,6 +264,8 @@ body {
 .wishes {
   margin-bottom: 30px;
   color: #b64c4c;
+  z-index: 2;
+  position: relative;
 }
 
 .wish {
@@ -264,6 +278,8 @@ body {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 2;
+  position: relative;
 }
 
 .wish .number {
@@ -274,6 +290,8 @@ body {
   min-width: 30px;
   text-align: right;
   margin-top: 2px;
+  z-index: 2;
+  position: relative;
 }
 
 .wish p {
@@ -281,6 +299,8 @@ body {
   font-size: clamp(21px, 5vw, 30px);
   line-height: 1.5;
   color: #b64c4c;
+  z-index: 2;
+  position: relative;
 }
 
 .photo-with-arrows {
@@ -304,12 +324,16 @@ body {
   font-family: 'HeadFont', sans-serif;
   font-size: clamp(15px, 13vw, 65px);
   margin-bottom: 30px;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline .event {
@@ -318,6 +342,8 @@ body {
   max-width: 600px;
   width: 100%;
   margin-bottom: 30px;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline .time {
@@ -326,17 +352,23 @@ body {
   color: #b64c4c;
   flex-shrink: 0;
   text-align: right;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline .details {
   margin-left: 15px;
   flex: 1;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline .details h3 {
   margin: 0 0 5px;
   font-size: clamp(21px, 5vw, 30px);
   color: #b64c4c;
+  z-index: 2;
+  position: relative;
 }
 
 .timeline .details p {
@@ -344,6 +376,8 @@ body {
   font-size: clamp(15px, 4vw, 25px);
   color: #b64c4c;
   line-height: 1.5;
+  z-index: 2;
+  position: relative;
 }
 
 /* Секция 5 - Подтверждение */
@@ -351,6 +385,8 @@ body {
   font-family: 'HeadFont', sans-serif;
   font-size: clamp(28px, 11vw, 65px);
   margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .confirmation-text {
@@ -362,6 +398,8 @@ body {
   margin-right: auto;
   line-height: 1.5;
   text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 .confirm-button {
