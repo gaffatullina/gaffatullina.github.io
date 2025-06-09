@@ -48,7 +48,6 @@ body {
   width: clamp(60px, 8vw, 100px);
   height: clamp(60px, 8vw, 100px);
   top: 0;
-  left: 0;
   background-image: url('images/flowers/1.png');
 }
 
@@ -56,7 +55,6 @@ body {
 .decor-rings-right {
   position: absolute;
   right: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/2.png');
   width: clamp(60px, 8vw, 100px);
@@ -68,7 +66,6 @@ body {
 .decor-date-names {
   position: absolute;
   right: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/3.png');
   width: clamp(60px, 8vw, 100px);
@@ -80,7 +77,6 @@ body {
 .decor-photo-top-left {
   position: absolute;
   left: 0;
-  top: 0;
   background-image: url('images/flowers/4.png');
   width: clamp(60px, 8vw, 100px);
   height: clamp(60px, 8vw, 100px);
@@ -102,7 +98,6 @@ body {
 .decor-venue-right {
   position: absolute;
   right: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/6.png');
   width: clamp(60px, 8vw, 100px);
@@ -114,7 +109,6 @@ body {
 .decor-map-left {
   position: absolute;
   left: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/7.png');
   width: clamp(60px, 8vw, 100px);
@@ -126,7 +120,6 @@ body {
 .decor-map-right {
   position: absolute;
   right: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/8.png');
   width: clamp(60px, 8vw, 100px);
@@ -138,7 +131,6 @@ body {
 .decor-schedule-left {
   position: absolute;
   left: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/9.png');
   width: clamp(60px, 8vw, 100px);
@@ -150,7 +142,6 @@ body {
 .decor-conclusion-right {
   position: absolute;
   right: 0;
-  top: 50%;
   transform: translateY(-50%);
   background-image: url('images/flowers/10.png');
   width: clamp(60px, 8vw, 100px);
