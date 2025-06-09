@@ -30,6 +30,12 @@ body {
   text-align: center;
 }
 
+.rings {
+  top: 200px;
+  right: 10px;
+  background-image: url('images/rings.png');
+}
+
 /* Декор */
 .decor {
   position: absolute;
