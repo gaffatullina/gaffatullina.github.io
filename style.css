@@ -74,9 +74,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.decor-photo-top-left {
+.decor-photo-bottom-right {
   position: absolute;
-  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url('images/flowers/4.png');
   width: clamp(60px, 8vw, 100px);
   height: clamp(60px, 8vw, 100px);
@@ -84,10 +85,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.decor-photo-bottom-left {
+.decor-photo-top-left {
   position: absolute;
   left: 0;
-  bottom: 0;
   background-image: url('images/flowers/5.png');
   width: clamp(60px, 8vw, 100px);
   height: clamp(60px, 8vw, 100px);
