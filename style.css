@@ -35,40 +35,15 @@ body {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  width: clamp(60px, 8vw, 100px);
-  height: clamp(60px, 8vw, 100px);
   z-index: 1;
 }
 
 .decor-top-left {
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
   top: 0;
   left: 0;
   background-image: url('images/flowers/1.png');
-}
-
-.decor-top-right {
-  top: 0;
-  right: 0;
-  background-image: url('images/flowers/2.png');
-}
-
-.decor-middle-right {
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  background-image: url('images/flowers/3.png');
-}
-
-.decor-bottom-left {
-  bottom: 0;
-  left: 0;
-  background-image: url('images/flowers/4.png');
-}
-
-.decor-bottom-right {
-  bottom: 0;
-  right: 0;
-  background-image: url('images/flowers/5.png');
 }
 
 /* Новые декоративные элементы */
@@ -187,41 +162,6 @@ body {
   height: clamp(60px, 8vw, 100px);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-/* Медиа-запросы для адаптивности */
-@media (max-width: 768px) {
-  .decor,
-  .decor-rings-right,
-  .decor-date-names,
-  .decor-photo-top-left,
-  .decor-photo-bottom-left,
-  .decor-venue-right,
-  .decor-map-left,
-  .decor-map-right,
-  .decor-schedule-left,
-  .decor-conclusion-right,
-  .decor-footer-left {
-    width: clamp(40px, 6vw, 80px);
-    height: clamp(40px, 6vw, 80px);
-  }
-}
-
-@media (max-width: 480px) {
-  .decor,
-  .decor-rings-right,
-  .decor-date-names,
-  .decor-photo-top-left,
-  .decor-photo-bottom-left,
-  .decor-venue-right,
-  .decor-map-left,
-  .decor-map-right,
-  .decor-schedule-left,
-  .decor-conclusion-right,
-  .decor-footer-left {
-    width: clamp(30px, 4vw, 60px);
-    height: clamp(30px, 4vw, 60px);
-  }
 }
 
 /* Текст в первой секции */
