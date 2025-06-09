@@ -9,30 +9,28 @@
   <body>
     <section class="section1">
       <div class="decor decor-top-left"></div>
-      <div class="decor decor-top-right"></div>
-
+      
       <div class="rings"></div>
+      <div class="decor decor-rings-right"></div>
 
       <p class="invitation-text">Рады пригласить вас на нашу свадьбу!</p>
       <p class="date-time">02 августа 2025 года в 15:30</p>
+      <div class="decor decor-date-names"></div>
 
       <div class="names">
         <span class="name">Булат</span>
         <span class="amp">&amp;</span>
         <span class="name">Гузель</span>
       </div>
-      
-      <div class="decor decor-middle-right"></div>
 
       <div class="photo-frame">
+        <div class="decor decor-photo-top-left"></div>
+        <div class="decor decor-photo-bottom-left"></div>
         <img src="images/HeadPhoto.jpg" alt="Молодожёны" />
       </div>
-
-      <div class="decor decor-bottom-left"></div>
     </section>
 
     <section class="section2">
-      <div class="decor decor-top-right"></div>
 
       <p class="intro-text">
         Дорогие родные и близкие!<br />
@@ -44,6 +42,7 @@
       </p>
 
       <h2 class="section-title">Место проведения</h2>
+      <div class="decor decor-venue-right"></div>
 
       <div class="venue-photo">
         <img src="images/place.jpg" alt="Место проведения" />
@@ -55,6 +54,8 @@
       </p>
 
       <div class="map">
+        <div class="decor decor-map-left"></div>
+        <div class="decor decor-map-right"></div>
         <img src="images/place-map.png" alt="Карта" />
       </div>
 
@@ -66,11 +67,9 @@
         Открыть карту
       </a>
 
-      <div class="decor decor-bottom-left"></div>
     </section>
 
     <section class="section3">
-      <div class="decor decor-top-left"></div>
 
       <div class="wishes">
         <div class="wish">
@@ -109,11 +108,10 @@
         <div class="arrow right-arrow">&#10095;</div>
       </div>
 
-      <div class="decor decor-bottom-right"></div>
     </section>
 
     <section class="section4">
-      <div class="decor decor-top-left"></div>
+      <div class="decor decor-schedule-left"></div>
 
       <h2 class="section-title">Расписание</h2>
 
@@ -176,7 +174,7 @@
         </div>
       </div>
 
-      <div class="decor decor-bottom-right"></div>
+      <div class="decor decor-conclusion-right"></div>
     </section>
 
     <section class="section5">
@@ -196,7 +194,7 @@
         Форма подтверждения
       </a>
 
-      <div class="decor decor-bottom-left"></div>
+      <div class="decor decor-footer-left"></div>
     </section>
   </body>
 </html>
